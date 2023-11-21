@@ -14,7 +14,7 @@ void setup(){
 }
 
 #include "dinput.h"
-dOutput Input(1, true);
+dInput Input(1, true);
 
 #include "doutput.h"
 dOutput Output(LED_BUILTIN, true);
