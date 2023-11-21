@@ -14,9 +14,9 @@ void setup(){
 }
 
 #include "dinput.h"
-#include "doutput.h"
-
 dOutput Input(1, true);
+
+#include "doutput.h"
 dOutput Output(LED_BUILTIN, true);
 
 void loop(){
