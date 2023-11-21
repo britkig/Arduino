@@ -34,9 +34,9 @@ Return the current state of the output.
 ```cpp
 bool Set(bool)
 ```
-Set output high or low; returns a bool on whether or not the output has changed state, or false if already in current state.
+Set output high or low; returns `true` if the output has changed state, false otherwise.
 ### Example Usage
-Flash the onboard LED on and off at 1Hz interval.
+Flash the onboard LED on and off at a 1Hz interval.
 ```cpp
 void setup(){
 
