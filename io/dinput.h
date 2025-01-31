@@ -8,7 +8,6 @@ struct dInput{
 		return digitalRead(_p)!=_i;
 	}  
 	dInput(unsigned char p, bool i=false){
-		_i=i;
-		pinMode(_p=p,_i?INPUT_PULLUP:INPUT);
+		pinMode(_p=p,_i=i?INPUT_PULLUP:INPUT);
 	}
 };
