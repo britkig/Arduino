@@ -14,8 +14,7 @@ struct dOutput{
 	}
 	dOutput(unsigned char p, bool i=false){
 		_i=i;
-		_p=p;
-		pinMode(_p,OUTPUT);
+		pinMode(_p=p,OUTPUT);
 		Set(false);
 	}
 };
